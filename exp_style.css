@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+   background: linear-gradient(to right, #c4e2f7, #73b7eb);
+  color: #1e1e2f;
+}
+
+.experience-section {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.experience-title {
+  font-size: 48px;
+  color: #084b83;
+  margin-bottom: 40px;
+  letter-spacing: 1px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.experience-card {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+  background: linear-gradient(145deg, #c2e4f6, #92c8f7);
+  padding: 35px;
+  border-radius: 18px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  text-align: left;
+  font-weight: bold;
+}
+
+.role {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #0a3d62;
+}
+
+.company {
+  color: #145d8f;
+  font-weight: normal;
+}
+
+.duration {
+  font-size: 18px;
+  color: #5a5a5a;
+  margin-bottom: 25px;
+}
+
+.status {
+  color: #1e88e5;
+  font-style: italic;
+}
+
+.details ul {
+  font-size: 18px;
+  padding-left: 20px;
+  line-height: 1.7;
+  color: #333;
+}
+.p6 {
+  background: #7fbcdc;
+  color:#0a3d62;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  font-size: 18px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+  font-size: 20px;
+}
+.p6:hover {
+  transform: scale(1.02);
+  background-color: #b3e5fc;
+}
+.toTop{
+    all:initial;
+    height:100px;
+    width:100px;
+    background:rgb(92, 146, 182);
+    border-radius:100%;
+    position: fixed;
+    right:1rem;
+    bottom:1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    cursor:pointer;
+    font-family: verdana;
+    opacity:0;
+    transition:opacity .3s linear;
+    color: white;
+    font-weight: bold;
+}
+html{
+    scroll-behavior: smooth;
+}

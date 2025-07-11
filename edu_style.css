@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh; 
+    background:linear-gradient(to bottom, #abe2f4, #78ddf1);
+}
+html, body {
+  min-height: 100%;
+}
+.timeline {
+    position: relative;
+    max-width: 1400px;
+    margin: 100px auto;
+}
+
+.container {
+    position: relative;
+    padding: 10px 50px;
+    width: 50%;
+    opacity: 0;
+    animation: fadein 1s ease forwards;
+}
+
+@keyframes fadein {
+    from { opacity: 0; transform: translateY(40px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.container:nth-child(1) { animation-delay: 0s; }
+.container:nth-child(2) { animation-delay: 0.5s; }
+.container:nth-child(3) { animation-delay: 1s; }
+
+.left-container { left: 0; }
+.right-container { left: 50%; }
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background: #3f7887;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+    z-index: -1;
+}
+.text-box {
+    position: relative;
+    padding: 20px 30px ;
+    border-radius: 6px;
+    background: #3f6b78;
+    color: white;
+    font-size: 30px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    min-height: 320px;
+    text-align:left;
+}
+
+.text-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.3);
+}
+
+.text-box h2 {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.text-box small {
+    display: inline-block;
+    margin-bottom: 15px;
+    color: #cdebf2;
+}
+
+.text-box p {
+    line-height: 1.6;
+    font-size: 16px;
+}
+.left-container-arrow, .right-container-arrow {
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 20px;
+    z-index: 1;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+}
+
+.left-container-arrow {
+    border-left: 15px solid #3f7887;
+    right: -15px;
+}
+
+.right-container-arrow {
+    border-right: 15px solid #3f7887;
+    left: -15px;
+}
+.container .icon {
+    width: 40px;
+    position: absolute;
+    border-radius: 50%;
+    top: 32px;
+    right: -20px;
+    z-index: 10;
+    color:white;
+    font-size:55px;
+}
+.right-container .icon{
+    left: -20px;
+}
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+
+    .right-container {
+        left: 0;
+    }
+
+    .timeline::after {
+        left: 20px;
+    }
+
+    .left-container-arrow, .right-container-arrow {
+        display: none;
+    }
+
+    .icon {
+        right: 10px;
+    }
+}
+
