@@ -48,8 +48,8 @@ body {
 }
 
 .homepg-img img {
-  width: 100px;
-  height: 100px;
+max-width: 100%;
+  height: auto;
   object-fit: cover;
   border-radius: 50%; 
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
@@ -69,7 +69,7 @@ header {
 
 header h1 {
   margin: 0;
-  font-size: 20px;
+  font-size: 32px;
 }
 
 nav {
@@ -84,7 +84,7 @@ nav a {
   color: var(--white);
   text-decoration: none;
   font-weight: 600;
-  font-size: 10px;
+  font-size: 16px;
 }
 
 nav a:hover {
@@ -94,6 +94,7 @@ nav a:hover {
 main {
   min-height: 80vh;
   max-width: 100px;
+  width:100%
   margin: 20px auto;
   padding: 0 20px;
 }
@@ -214,4 +215,23 @@ footer {
 }
 html{
   font-size: 100%;
+}
+@media screen and (max-width: 768px) {
+  .intro-text {
+    font-size: 22px;
+    line-height: 1.4;
+  }
+
+  nav a {
+    font-size: 14px;
+  }
+
+  .homepg-img img {
+    width: 100px;
+    height: 100px;
+  }
+
+  main {
+    padding: 0 10px;
+  }
 }
