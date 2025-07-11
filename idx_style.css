@@ -11,7 +11,7 @@
 }
 
 .darkmode {
-  --primary-color:  yellow;
+  --primary-color:  green;
   --base-variant: #0a1e2a;
   --text-color: #e1f5fe;
   --header-bg: #0a4d6d;
@@ -114,7 +114,7 @@ h2 {
   display: flex;
   justify-content: center; 
   align-items: center;
-  gap: 10px; 
+  gap: 20px; 
 }
 
 .profile-links img,
