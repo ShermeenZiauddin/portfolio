@@ -11,7 +11,7 @@
 }
 
 .darkmode {
-  --primary-color:  green;
+  --primary-color:  yellow;
   --base-variant: #0a1e2a;
   --text-color: #e1f5fe;
   --header-bg: #0a4d6d;
@@ -78,7 +78,7 @@ nav {
   padding: 20px;
   display: flex;
   justify-content: center;
-  gap: 8px;
+  gap: 20px;
 }
 
 nav a {
