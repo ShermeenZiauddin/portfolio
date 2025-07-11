@@ -11,7 +11,7 @@
 }
 
 .darkmode {
-  --primary-color:  yellow;
+  --primary-color:  green;
   --base-variant: #0a1e2a;
   --text-color: #e1f5fe;
   --header-bg: #0a4d6d;
@@ -84,7 +84,7 @@ nav {
 nav a {
   color: var(--white);
   text-decoration: none;
-  font-weight: 60;
+  font-weight: 40;
   font-size: 1.5rem;
 }
 
@@ -118,8 +118,8 @@ h2 {
 
 .profile-links img,
 .contact-icons img {
-  width: 10px;
-  height: 10px;
+  width: 20px;
+  height: 20px;
   transition: transform 0.2s;
 }
 
@@ -139,7 +139,7 @@ h2 {
 .contact-icons span {
   display: block;
   margin-top: 10px;
-  font-size: 20px;
+  font-size: 40px;
 }
 
 .resume-download {
