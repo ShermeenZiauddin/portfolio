@@ -32,12 +32,12 @@ body {
   transition: background-color 0.3s, color 0.3s;
 }
 .homepage-layout {
-  display: flex;
+ display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap; 
-  gap: 20px;
-  padding: 0 20px; 
+  flex-wrap: wrap;
+  gap: 10px; 
+  padding: 0 20px;
 }
 
 .homepg-img {
@@ -48,10 +48,10 @@ body {
 }
 
 .homepg-img img {
-max-width: 100%;
-  height: auto;
+width: 120px;
+  height: 120px;
   object-fit: cover;
-  border-radius: 50%; 
+  border-radius: 50%;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -205,12 +205,12 @@ footer {
   display: inline;
 }
 .intro-text {
-  font-size: 35px;
-  font-weight: bold;
-  max-width: 800px;
+  font-size: 22px;
+  font-weight: normal;
+  max-width: 600px;
   margin: 0 auto;
-  line-height: 2;
-  font-family:Georgia, 'Times New Roman', Times, serif;
+  line-height: 1.5;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   color: var(--text-color);
 }
 html{
