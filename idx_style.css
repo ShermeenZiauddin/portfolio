@@ -113,7 +113,7 @@ h2 {
   display: flex;
   justify-content: center; 
   align-items: center;
-  gap: 110px; 
+  gap: 10px; 
 }
 
 .profile-links img,
@@ -131,7 +131,7 @@ h2 {
 .contact-icons {
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 1px;
   align-items: center;
   flex-wrap: wrap;
 }
@@ -139,7 +139,7 @@ h2 {
 .contact-icons span {
   display: block;
   margin-top: 10px;
-  font-size: 12px;
+  font-size: 20px;
 }
 
 .resume-download {
