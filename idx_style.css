@@ -11,7 +11,7 @@
 }
 
 .darkmode {
-  --primary-color:  yellow;
+  --primary-color:  green;
   --base-variant: #0a1e2a;
   --text-color: #e1f5fe;
   --header-bg: #0a4d6d;
@@ -24,7 +24,7 @@
 body {
   background-color: var(--base-variant);
   font-family: 'Poppins', sans-serif;
-  font-size: 1.25rem;
+  font-size: 10px;
   line-height: 1.6;
   color: var(--text-color);
   margin: 0;
@@ -105,7 +105,7 @@ section {
 }
 
 h2 {
-  font-size: 10px; 
+  font-size: 15px; 
   color: var(--primary-color);
   display: inline-block;
 }
@@ -118,8 +118,8 @@ h2 {
 
 .profile-links img,
 .contact-icons img {
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
   transition: transform 0.2s;
 }
 
@@ -131,7 +131,7 @@ h2 {
 .contact-icons {
   display: flex;
   justify-content: center;
-  gap: 1px;
+  gap: 5px;
   align-items: center;
   flex-wrap: wrap;
 }
@@ -205,7 +205,7 @@ footer {
   display: inline;
 }
 .intro-text {
-  font-size: 10px;
+  font-size: 15px;
   font-weight: bold;
   max-width: 400px;
   margin: 0 auto;
