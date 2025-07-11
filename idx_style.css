@@ -11,7 +11,7 @@
 }
 
 .darkmode {
-  --primary-color: #9dd1f1;
+  --primary-color: green;
   --base-variant: #0a1e2a;
   --text-color: #e1f5fe;
   --header-bg: #0a4d6d;
@@ -48,7 +48,7 @@ body {
 }
 
 .homepg-img img {
-  width: 20vw;
+  width: 40vw;
   height: auto;
   max-width:100%;
   object-fit: cover;
